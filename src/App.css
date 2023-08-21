@@ -1,0 +1,184 @@
+*{
+    background-color: #484848;
+    color: white;
+}
+
+.home{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+    font-weight: 200;
+    flex-direction: column;
+}
+
+.home>button{
+    background-color: orange;
+    border: 0px;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow:  0px 4px 30px 5px rgba(255, 166, 0, 0.397);
+    cursor: pointer;
+} 
+
+.btn{
+    text-decoration: none;
+    background-color: orange;
+}
+
+.abt-us{
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abt-title{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    margin: 2rem 0rem;
+}
+
+.content{
+
+    width: 60%;
+    margin: 1rem;
+    text-align: center;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.card{
+    width: 350px;
+    height: auto;
+    padding-bottom: 0.5rem;
+    background-color: #333333;
+    margin: 2rem;
+    border-radius: 5px;
+}
+
+.card:hover{
+    
+    box-shadow:  0px 4px 30px 5px rgba(138, 138, 138, 0.397);
+}
+
+.btns{
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+
+.pro-image{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.layout{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.wish{
+    padding: 0.5rem 1.5rem;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.cart{
+    padding: 0.5rem 1.5rem;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.title{
+    text-align: center;
+    font-size: 24px;
+    padding: 1rem;
+    background-color: #333;
+}
+
+.details{
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.company, .price{
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.price{
+    background-color: #333;
+}
+
+.company{
+    padding: 0.5rem 1rem;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.login-cred{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.login-cred>input{
+    margin: 1rem;
+    background-color: white;
+    border: none;
+    width: 15rem;
+    height: 2.5rem;
+    padding: 0rem 1rem;
+    border-radius: 2px;
+    color: black;
+}
+
+.login-cred>input:focus{
+    border: none;
+    outline: none;
+}
+
+.login-btn{
+    background-color: orange;
+    border: none;
+    width: 17rem;
+    height: 2.5rem;    
+    margin-top: 1rem;
+    border-radius: 3px;
+}
+
+.title-cred{
+    text-decoration: none;
+}
+
+.my-1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
